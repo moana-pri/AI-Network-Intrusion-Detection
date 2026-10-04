@@ -1,0 +1,47 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Django local files
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/
+
+# Logs and runtime output
+*.log
+logs/*.log
+
+# Generated machine-learning outputs
+ml_ready_data.csv
+ml_results.csv
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.swp
+*.swo
+
+# Test and coverage output
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
